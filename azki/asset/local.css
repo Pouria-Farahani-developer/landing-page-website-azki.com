@@ -1,0 +1,221 @@
+@media screen and (max-width:576px) {
+    /* small mobile */
+    .inner-header{
+        position: relative;
+    }
+    .container-header .first span:nth-of-type(1){
+        /* background-color: red; */
+        width: 50%;
+        height: 50%;
+        font-size: 18px;
+        font-weight: normal;
+        display: block;
+    }
+    .container-header .first span:nth-of-type(2){
+        /* background-color: red; */
+        height: 5%;
+        width: 36%;
+        font-size: 32px;
+        font-weight: normal;
+        position: absolute;
+        right: 8px;
+        top: 52px;
+    }   
+    .container-header .first figure{
+        /* background-color: red; */
+        width: 45%;
+    }   
+    section div.container div.row h4,.text {
+        padding-left: 69px;
+      }
+
+      section div.container div.row div.box-desk{
+        display: none !important;
+      }
+
+      section div.container div.row div.box-mob,
+      section div.asibha div.row div.gridbox-mob{
+        display: grid;
+      }
+
+      section div.container div.row div.box-mob div:nth-of-type(10) {
+        position: relative;
+        right: 145% !important;
+    }
+
+    section div.asibha div.row div.boxgrid{
+        display: none;
+    }
+
+    section div.asibha div.row div.gridbox-mob div:nth-of-type(5){
+        position: relative;
+        right:99%;
+    }
+    section div.asibha div.row div.gridbox-mob{
+      z-index: 999;
+    }
+    figure.img-city{
+      /* background-color: red; */
+      position: relative;
+      top: -30px;
+    }
+
+}
+
+@media screen and (min-width:577px) {
+    /* big mobile */
+    section div.container div.row h4,.text {
+        padding-left: 69px;
+      }
+
+      section div.container div.row div.box-desk{
+        display: none !important;
+      }
+
+      section div.container div.row div.box-mob,
+      section div.asibha div.row div.gridbox-mob{
+        display: grid;
+      }
+      section div.container div.row div.box-mob div:nth-of-type(10) {
+        position: relative;
+        right: 145% !important;
+    }
+    section div.asibha div.row div.boxgrid{
+        display: none;
+    }
+    section div.asibha div.row div.gridbox-mob div:nth-of-type(5){
+        position: relative;
+        right:98%;
+    }
+    section div.asibha div.row div.gridbox-mob{
+      z-index: 999;
+    }
+    figure.img-city{
+      /* background-color: red; */
+      position: relative;
+      top: -90px;
+    }
+}
+
+
+@media screen and (min-width:768px) {
+    /* tablet */
+    section div.container div.row div.box-mob{
+        grid-template-columns: repeat(3, 16%);
+    }
+    section div.container div.row div.box-mob div {
+        position: relative;
+        right: 140%;
+    }
+    section div.container div.row div.box-mob div:nth-of-type(10) {
+        position: relative;
+        right: 240% !important;
+    }
+    section div.asibha div.row div.gridbox-mob{
+        grid-template-columns: repeat(2, 22%);
+    }
+
+    section div.asibha div.row div.gridbox-mob div{
+        position: relative;
+        right:113%;
+    }
+    section div.asibha div.row div.gridbox-mob div:nth-of-type(5){
+        position: relative;
+        right:161%;
+    }
+
+}
+
+
+@media screen and (min-width:992px) {
+    /* desktop */
+    section div.container div.row div.box-mob{
+        grid-template-columns: repeat(3, 12%);
+    }
+    section div.container div.row div.box-mob div {
+        position: relative;
+        right: 245%;
+    }
+    section div.container div.row div.box-mob div:nth-of-type(10) {
+        position: relative;
+        right: 343% !important;
+    }
+    section div.asibha div.row div.gridbox-mob{
+        grid-template-columns: repeat(2, 16%);
+    }
+
+    section div.asibha div.row div.gridbox-mob div{
+        position: relative;
+        right:197%;
+    }
+    
+    section div.asibha div.row div.gridbox-mob div:nth-of-type(5){
+        position: relative;
+        right:245%;
+    }
+
+}
+
+
+
+@media screen and (min-width:1200px) {
+    /* xl */
+    section div.container div.row h4,.text {
+        padding-left: 0px;
+      }
+      .box-desk{
+        display: block;
+      }
+      section div.container div.row div.box-desk {
+        display: grid !important;
+        grid-template-columns: repeat(5, 12%);
+        grid-template-rows: repeat(2, 1fr);
+        padding: 0;
+        grid-row-gap: 15px;
+      }
+      section div.container div.row div.box-desk div{
+        right: 240px;
+      }
+      
+      section div.container div.row div.box-mob,
+      section div.asibha div.row div.gridbox-mob{
+        display: none !important;
+      }
+      section div.asibha div.row div.boxgrid{
+        display: grid;
+      }
+      figure.img-city{
+        /* background-color: red; */
+        position: static;
+      }
+
+}
+
+
+@media screen and (min-width:1400px) {
+    /* xxl */
+    section div.container div.row div.box-desk{
+        grid-template-columns: repeat(5, 10%);
+    }
+    section div.container div.row div.box-desk div{
+        right: 350px;
+      }
+
+      section div.asibha div.row div.boxgrid {
+        grid-template-columns: repeat(3,17%);
+      }
+      section div.asibha div.row div.boxgrid div {
+        position: relative;
+        right: 155%;
+      }
+
+      section div.asibha div.row div.boxgrid div:nth-of-type(4) {
+        right: 205%;
+      }
+
+      
+      section div.asibha div.row div.boxgrid div:nth-of-type(5) {
+        right: 205%;
+      }
+      
+}   
