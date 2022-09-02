@@ -14,7 +14,7 @@
 
 - 📆 Created - 2022-08-22
 
-- 🤖 Technologies Used - Html , Css , js
+- 🤖 Technologies Used - Html , Css , scss
 
 - 🕵🏻‍♀️ Role - Frontend
 
