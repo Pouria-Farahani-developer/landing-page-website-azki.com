@@ -1,7 +1,7 @@
-# game lego
+# RESPONSIVE WEBSITE WWW.AZKI.COM
 
 
-**Let's go play Lego**
+**Let's go visit the website**
 
 ![image psd](https://user-images.githubusercontent.com/109727844/188238868-b926e0f4-28ba-4756-9851-e0d6c6b90469.jpg)
 
@@ -12,7 +12,7 @@
 
 - 👨‍💻 developed by pouria farahani
 
-- 📆 Created - 2022-09-07
+- 📆 Created - 2022-08-22
 
 - 🤖 Technologies Used - Html , Css , js
 
